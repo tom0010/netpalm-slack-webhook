@@ -29,8 +29,8 @@ def slack_netpalm():
           "connection_args": {
             "device_type": "cisco_ios",
             "host": device,
-            "username": os.environ["JIRA_USERNAME"],
-            "password": os.environ["JIRA_PASSWORD"]
+            "username": username,
+            "password": password
           },
           "command": command,
           "webhook": {
