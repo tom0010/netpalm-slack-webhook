@@ -1,6 +1,8 @@
 # netpalm-slack-webhook
 A simple Slack webhook example for netpalm
 
+![netpalm](https://user-images.githubusercontent.com/41154665/116525235-38877f00-a8d0-11eb-8ea6-cc79da542cd3.gif)
+
 Installing the webhook:
 - Load slack.py to netpalm/backend/plugins/extensibles/custom_webhooks/
 
@@ -55,6 +57,3 @@ def slack_netpalm():
             return "Working...", 200
     return "Invalid command", 400
 ```
-
-
-![netpalm](https://user-images.githubusercontent.com/41154665/116525235-38877f00-a8d0-11eb-8ea6-cc79da542cd3.gif)
