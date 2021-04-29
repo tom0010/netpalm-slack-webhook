@@ -7,9 +7,9 @@ Installing the webhook:
 Example when using a slack slash command: 
 `/myslackapp show version on <my_device_name>`
 
-Create the end point:
+Create the end point for the Slack slash command:
 ```
-@app.route("/slack/netpalm", methods=["POST"])
+@app.route("/slack/slash_command_netpalm", methods=["POST"])
 def slack_netpalm():
 
     # verify the slack request
@@ -55,3 +55,6 @@ def slack_netpalm():
             return "Working...", 200
     return "Invalid command", 400
 ```
+
+
+![netpalm](https://user-images.githubusercontent.com/41154665/116525235-38877f00-a8d0-11eb-8ea6-cc79da542cd3.gif)
