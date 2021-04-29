@@ -1,5 +1,5 @@
 # netpalm-slack-webhook
-A simple Slack webhook example for netpalm
+A simple Slack webhook example for ![netpalm](https://github.com/tbotnz/netpalm)
 
 ![netpalm](https://user-images.githubusercontent.com/41154665/116525235-38877f00-a8d0-11eb-8ea6-cc79da542cd3.gif)
 
